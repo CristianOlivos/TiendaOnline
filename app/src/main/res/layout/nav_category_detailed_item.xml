@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    android:elevation="4dp">
+
+
+    <LinearLayout
+        android:background="#DFFFD1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <ImageView
+            android:background="@drawable/border"
+            android:id="@+id/cat_nav_img"
+            android:scaleType="centerInside"
+            android:src="@drawable/fruits"
+            android:layout_width="120dp"
+            android:layout_height="120dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:id="@+id/nav_cat_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"></TextView>
+
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Precio"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:textColor="@color/purple_700"></TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="start">
+            <ImageView
+                android:id="@+id/add_item"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/add_circle"
+                android:layout_marginLeft="6dp"
+                ></ImageView>
+            <TextView
+                android:id="@+id/quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginRight="7dp"
+                android:layout_marginLeft="4dp"></TextView>
+            <ImageView
+                android:id="@+id/remove_item"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/remove_circle"
+
+                ></ImageView>
+            </LinearLayout>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/buynow"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Comprar Ahora"
+                android:textAllCaps="false"
+                android:textSize="10dp"
+                android:textColor="@color/black"
+                android:background="@drawable/btn_bg_detailed"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/relativeLayout"
+                android:layout_gravity="end"></androidx.appcompat.widget.AppCompatButton>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

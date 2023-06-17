@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "615014238032",
+    "project_id": "tiendaonline-7fe4f",
+    "storage_bucket": "tiendaonline-7fe4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615014238032:android:19c54d288a439d7832ce55",
+        "android_client_info": {
+          "package_name": "com.proyecyo.tiendaonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615014238032-asrr67f0r2kml5ncbdehb6nt4abu4kgv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp-AmSbIrLcRFhdYpxW3AV-FbBpu8GNYo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615014238032-asrr67f0r2kml5ncbdehb6nt4abu4kgv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
